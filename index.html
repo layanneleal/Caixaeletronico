@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caixa eletrônico</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    img {
+      height: 300px;
+      width: 300px;
+    }
+    input#btExibir {
+      cursor: pointer;
+    }
+    h3#outNotasCem, #outNotasCinquenta, #outNotasDez {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <img src="CAIXAELETRONICO.png" alt="Caixa eletrônico">
+  <h1>Programa caixa eletrônico</h1>
+  <p>Valor do saque R$: 
+    <input type="text" id="inSaque">
+  </p>
+  <p>
+    <input type="button" value="Exibir notas para saque" id="btExibir">
+  </p>
+  <h3 id="outNotasCem"></h3>
+  <h3 id="outNotasCinquenta"></h3>
+  <h3 id="outNotasDez"></h3>
+  <script src="script.js"></script>
+</body>
+</html>
